@@ -1,0 +1,2 @@
+khi upload file lên github phần vendor sẽ không được upload lên vì vậy khi down load về máy mọi người hãy gõ lệnh ' composer update' ở terminal để cài lại
+tiếp theo là cài đặt lại file .env
