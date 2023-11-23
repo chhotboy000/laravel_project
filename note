@@ -1,2 +1,72 @@
 khi upload file lên github phần vendor sẽ không được upload lên vì vậy khi down load về máy mọi người hãy gõ lệnh ' composer update' ở terminal để cài lại
 tiếp theo là cài đặt lại file .env
+Tạo file .env: Đầu tiên, bạn có thể tạo một file mới trong thư mục gốc của dự án Laravel. Bạn có thể tạo file này bằng cách sao chép file .env.example và đổi tên thành .env.
+code file .env:
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=base64:INvsPxGUN/oHIgA6Nt+1ZyPiLBkyGiS4q+qjTdrg/OY=
+APP_DEBUG=true
+APP_URL=http://localhost
+
+LOG_CHANNEL=stack
+LOG_DEPRECATIONS_CHANNEL=null
+LOG_LEVEL=debug
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=test
+DB_USERNAME=root
+DB_PASSWORD=
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+FILESYSTEM_DISK=local
+QUEUE_CONNECTION=sync
+SESSION_DRIVER=file
+SESSION_LIFETIME=120
+
+MEMCACHED_HOST=127.0.0.1
+
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+MAIL_MAILER=smtp
+MAIL_HOST=mailpit
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="hello@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
+
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_DEFAULT_REGION=us-east-1
+AWS_BUCKET=
+AWS_USE_PATH_STYLE_ENDPOINT=false
+
+# PUSHER_APP_ID=
+# PUSHER_APP_KEY=
+# PUSHER_APP_SECRET=
+# PUSHER_HOST=
+# PUSHER_PORT=443
+# PUSHER_SCHEME=https
+# PUSHER_APP_CLUSTER=mt1
+
+PUSHER_APP_ID=1688004
+PUSHER_APP_KEY=301cf36983e893bca752
+PUSHER_APP_SECRET=fe6e828b29be70829e74
+PUSHER_HOST=
+PUSHER_PORT=443
+PUSHER_SCHEME=https
+PUSHER_APP_CLUSTER=ap1
+
+VITE_APP_NAME="${APP_NAME}"
+VITE_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
+VITE_PUSHER_HOST="${PUSHER_HOST}"
+VITE_PUSHER_PORT="${PUSHER_PORT}"
+VITE_PUSHER_SCHEME="${PUSHER_SCHEME}"
+VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+
