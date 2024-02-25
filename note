@@ -1,6 +1,6 @@
 khi upload file lên github phần vendor sẽ không được upload lên vì vậy khi down load về máy mọi người hãy gõ lệnh ' composer update' ở terminal để cài lại
 tiếp theo là cài đặt lại file .env
-Tạo file .env: Đầu tiên, bạn có thể tạo một file mới trong thư mục gốc của dự án Laravel. Bạn có thể tạo file này bằng cách sao chép file .env.example và đổi tên thành .env.
+Tạo file .env: Đầu tiên, bạn có thể tạo một file mới trong thư mục gốc của dự án Laravel. Bạn có thể tạo file này bằng cách sao chép file .env.example và đổi tên thành .env. Hoặc đổi tên file packup.evn.exe thành file .env
 code file .env:
 APP_NAME=Laravel
 APP_ENV=local
